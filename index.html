@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+
+        <div id="headingDiv">
+            <span id="heading">Registration Form</span>
+        </div>
+
+        <div class="detailsContainer">
+
+
+            <div >
+            <span>First Name:</span>
+            </div>
+            
+            <div>
+            <input type="text" placeholder="Mohan" required>
+            </div>
+
+
+            <div>
+            <span>Last Name:</span>
+            </div>
+            
+            <div>
+            <input type="text" placeholder="Sharma" required>
+            </div>
+
+            <div>
+            <span>Date of Birth:</span>
+            </div>
+
+            <div>
+            <input type="date" required>
+            </div>
+        </div>
+
+        <div class="genderContainer">
+            <div>
+            <span>Gender:</span>
+            </div>
+            
+        <div>
+        <label ><input type="radio" name="gender" required>Male</label>
+        <label ><input type="radio" name="gender" required>Female</label>
+        <label ><input type="radio" name="gender" required>Other</label>
+        </div>
+        </div>
+
+        <div class="contactContainer">
+            <div>
+            <span>Email:</span>
+            </div>
+
+            <div>
+            <input type="email" required>
+            </div>
+
+            <div>
+            <span>Contact Number:</span>
+            </div>
+
+            <div>
+            <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}" required>
+            </div>
+
+            <div>
+            <span>Address:</span>
+            </div>
+
+            <div>
+            <input type="text">
+            </div>
+        </div>
+        <button type="submit" style="background-color: brown;">Submit</button>
+
+    </div>
+
+</body>
+</html>
+
+
+
